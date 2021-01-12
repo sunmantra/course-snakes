@@ -24,6 +24,7 @@ SOURCES += \
     newgamewind.cpp \
     outnext.cpp \
     snakes.cpp \
+    snakt.cpp \
     statwindow.cpp
 
 HEADERS += \
@@ -33,6 +34,7 @@ HEADERS += \
     newgamewind.h \
     outnext.h \
     snakes.h \
+    snakt.h \
     statwindow.h
 
 FORMS += \

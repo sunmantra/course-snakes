@@ -17,6 +17,10 @@ public:
 
 private:
   Ui::StatWindow *ui;
+
+private slots:
+
+  void ReadToFile();
 };
 
 #endif // STATWINDOW_H

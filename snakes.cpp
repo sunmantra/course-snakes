@@ -1,9 +1,10 @@
 #include "snakes.h"
+#include <QPainter>
+#include <QTime>
 
 snakes::snakes() :   QGraphicsItem()
 {
-  //angle=0; //угол поварота
-  //setRotation(angle);
+
 }
 snakes::~snakes(){
 
@@ -20,9 +21,12 @@ void snakes::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QW
         // Помещаем координаты точек в полигональную модель
         polygon << QPoint(-10,-10)<< QPoint(-10,10) << QPoint(10,10) <<QPoint(10,-10);
         painter->setBrush(Qt::green);     // Устанавливаем кисть, которой будем отрисовывать объект
-        painter->drawPolygon(polygon);  // Рисуем треугольник по полигональной модели
+        painter->drawPolygon(polygon);  // Рисуем по полигональной модели
         Q_UNUSED(option);
         Q_UNUSED(widget);
 }
+
+
+
 
 

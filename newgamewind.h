@@ -12,6 +12,7 @@
 #include <outnext.h>
 #include <statwindow.h>
 #include <snakes.h>
+#include <snakt.h>//go
 
 namespace Ui {
   class Newgamewind;
@@ -32,6 +33,8 @@ private slots:
 
   void on_actionExit_triggered();
 
+
+
 private:
   Ui::Newgamewind *ui;
   HelpWind *hwind;
@@ -39,11 +42,9 @@ private:
   Author *auwind;
   QGraphicsScene *scene;//графическая сцена
   snakes *snak;
- //QTimer *timesnak;
-  /* Объявляем игровой таймер, благодаря которому
-                     * будет производиться изменения положения объекта на сцене
-                     * При воздействии на него клавишами клавиатуры
-                     * */
+
+ //snakes
+
 };
 
 #endif // NEWGAMEWIND_H

@@ -20,6 +20,11 @@ private slots:
 
 private:
   Ui::Author *ui;
+
+signals:
+  void FilePath(const QString &str);
+private:
+  void okCL();
 };
 
 #endif // AUTHOR_H

@@ -1,5 +1,9 @@
 #include "statwindow.h"
 #include "ui_statwindow.h"
+#include <QMessageBox>
+#include <QTextStream>
+#include <QDir>
+#include "author.h"
 
 StatWindow::StatWindow(QWidget *parent) :
   QMainWindow(parent),
@@ -11,4 +15,10 @@ StatWindow::StatWindow(QWidget *parent) :
 StatWindow::~StatWindow()
 {
   delete ui;
+}
+
+void StatWindow::ReadToFile()
+{
+
+
 }

@@ -13,7 +13,8 @@ Newgamewind::Newgamewind( QMainWindow *parent) ://isp
   this->resize(800,650);          // Задаем размеры виджета, то есть окна
   this->setFixedSize(800,650);// Фиксируем размеры виджета
   scene = new QGraphicsScene();   // Инициализируем графическую сцену
-  snak = new snakes();      // Инициализируем питона
+  snak = new snakes();// Инициализируем питона
+
   ui->graphicsView->setScene(scene);  // Устанавливаем графическую сцену в graphicsView
   ui->graphicsView->setRenderHint(QPainter::Antialiasing);    // Устанавливаем сглаживание
 
@@ -30,11 +31,11 @@ Newgamewind::Newgamewind( QMainWindow *parent) ://isp
      scene->addItem(snak);
      snak->setPos(0,0);
 
-     /*timesnak = new QTimer();
-     connect(timesnak, &QTimer::timeout, snak, &snakes::slotGameTimer);
-     timesnak->start(1000 / 50);*/
-
 }
+
+
+
+
 
 Newgamewind::~Newgamewind()
 {

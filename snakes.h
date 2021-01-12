@@ -12,8 +12,7 @@ public:
 
 signals:
 
-//public slots:
- //   void slotGameTimer(); // Слот, который отвечает за обработку перемещения треугольника
+// Слот, который отвечает за обработку перемещения треугольника
 
 protected:
     QRectF boundingRect() const;    /* Определяем виртуальный метод,
@@ -22,8 +21,7 @@ protected:
     // Определяем метод для отрисовки
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
 
-//private:
- //   qreal angle;    // Угол поворота графического объекта
+
 };
 
 #endif // SNAKES_H
