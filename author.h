@@ -7,6 +7,11 @@ namespace Ui {
   class Author;
 }
 
+/**
+ * @brief The Author class - Авторизация пользователя
+ * класс для работы с
+ *
+ */
 class Author : public QDialog
 {
   Q_OBJECT

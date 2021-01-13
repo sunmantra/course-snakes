@@ -6,7 +6,9 @@
 namespace Ui {
   class StatWindow;
 }
-
+/**
+ * @brief The StatWindow class - работа со статистикой
+ */
 class StatWindow : public QMainWindow
 {
   Q_OBJECT

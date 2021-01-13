@@ -15,7 +15,9 @@ Author::~Author()
 {
   delete ui;
 }
-
+/**
+ * @brief Author::on_pushButton_clicked - нажатие кнопки авторизации+ проверка ввода 
+ */
 void Author::on_pushButton_clicked()
 {
     QString Name = ui ->NameEdit->text();

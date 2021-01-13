@@ -12,7 +12,10 @@ QT_BEGIN_NAMESPACE
 
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
-
+/**
+ * @brief The MainWindow class - главное окно
+ * начальное меню
+ */
 class MainWindow : public QMainWindow
 {
   Q_OBJECT
@@ -22,6 +25,9 @@ public:
   ~MainWindow();
 
 private slots:
+  /**
+   * @brief on_actionExit_triggered - закрытие программы
+   */
   void on_actionExit_triggered();
   void on_actionHelp_triggered();
   void on_actionStatistics_triggered();

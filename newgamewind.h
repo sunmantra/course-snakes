@@ -12,12 +12,15 @@
 #include <outnext.h>
 #include <statwindow.h>
 #include <snakes.h>
-#include <snakt.h>//go
+
 
 namespace Ui {
   class Newgamewind;
 }
-
+/**
+ * @brief The Newgamewind class- Игра
+ * реализация игрового процесса, окно
+ */
 class Newgamewind : public QMainWindow
 {
   Q_OBJECT

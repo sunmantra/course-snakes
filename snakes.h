@@ -4,6 +4,9 @@
 #include <QGraphicsItem>
 #include <QPainter>
 #include <windows.h>
+/**
+ * @brief The snakes class - питон пользователя
+ */
 class snakes : public QGraphicsItem
 {
 public:

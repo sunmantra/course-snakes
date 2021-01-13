@@ -6,7 +6,10 @@
 namespace Ui {
   class HelpWind;
 }
-
+/**
+ * @brief The HelpWind class - окно помощи
+ * информация о правилах игры, автор, управление
+ */
 class HelpWind : public QWidget
 {
   Q_OBJECT
