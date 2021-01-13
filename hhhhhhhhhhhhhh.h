@@ -1,4 +1,0 @@
-#ifndef HHHHHHHHHHHHHH_H
-#define HHHHHHHHHHHHHH_H
-
-#endif // HHHHHHHHHHHHHH_H

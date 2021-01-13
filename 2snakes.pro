@@ -29,7 +29,6 @@ SOURCES += \
 HEADERS += \
     author.h \
     helpwind.h \
-    hhhhhhhhhhhhhh.h \
     mainwindow.h \
     newgamewind.h \
     outnext.h \
