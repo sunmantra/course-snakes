@@ -14,7 +14,12 @@ QRectF snakes::boundingRect() const
 {
    return QRectF(20,80,700,450);// Ограничиваем область, в которой лежит питон
 }
-
+/**
+ * @brief snakes::paint - отвечает за отрисовку питона
+ * @param painter
+ * @param option
+ * @param widget
+ */
 void snakes::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
         QPolygon polygon;   // Используем класс полигона, чтобы отрисовать треугольник

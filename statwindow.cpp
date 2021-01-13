@@ -16,7 +16,9 @@ StatWindow::~StatWindow()
 {
   delete ui;
 }
-
+/**
+ * @brief StatWindow::ReadToFile - чтение статистики из файла
+ */
 void StatWindow::ReadToFile()
 {
 

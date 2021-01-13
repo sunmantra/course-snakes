@@ -18,7 +18,7 @@ namespace Ui {
   class Newgamewind;
 }
 /**
- * @brief The Newgamewind class- Игра
+ * @brief The Newgamewind class - Игра
  * реализация игрового процесса, окно
  */
 class Newgamewind : public QMainWindow

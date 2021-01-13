@@ -51,8 +51,10 @@ void Newgamewind::on_actionStatistics_triggered()
 {
   statwind->show();
 }
-
-void Newgamewind::on_actionExit_triggered()//реализация перехода к авторизации
+/**
+ * @brief Newgamewind::on_actionExit_triggered - реализация перехода к авторизации
+ */
+void Newgamewind::on_actionExit_triggered()
 {
   auwind->show();
 }

@@ -21,7 +21,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>300</x>
+      <x>270</x>
       <y>10</y>
       <width>211</width>
       <height>111</height>
@@ -29,7 +29,8 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <family>Comic Sans MS</family>
+      <pointsize>30</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -61,7 +62,10 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>15</pointsize>
+         <family>Comic Sans MS</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
         </font>
        </property>
        <property name="text">
@@ -79,7 +83,10 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>15</pointsize>
+         <family>Comic Sans MS</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
         </font>
        </property>
        <property name="text">
@@ -92,11 +99,17 @@
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>520</x>
+      <x>490</x>
       <y>210</y>
       <width>151</width>
       <height>211</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Comic Sans MS</family>
+      <pointsize>10</pointsize>
+     </font>
     </property>
     <property name="title">
      <string>intellect</string>
@@ -113,6 +126,12 @@
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
        <widget class="QRadioButton" name="radioButton_2">
+        <property name="font">
+         <font>
+          <family>Comic Sans MS</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>small</string>
         </property>
@@ -120,6 +139,12 @@
       </item>
       <item>
        <widget class="QRadioButton" name="radioButton_3">
+        <property name="font">
+         <font>
+          <family>Comic Sans MS</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>averag</string>
         </property>
@@ -127,6 +152,12 @@
       </item>
       <item>
        <widget class="QRadioButton" name="radioButton">
+        <property name="font">
+         <font>
+          <family>Comic Sans MS</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>hard</string>
         </property>
@@ -138,7 +169,7 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>50</x>
+      <x>20</x>
       <y>40</y>
       <width>251</width>
       <height>41</height>
@@ -146,6 +177,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Comic Sans MS</family>
       <pointsize>16</pointsize>
      </font>
     </property>
@@ -156,7 +188,7 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>450</x>
+      <x>480</x>
       <y>40</y>
       <width>251</width>
       <height>41</height>
@@ -164,6 +196,7 @@
     </property>
     <property name="font">
      <font>
+      <family>Comic Sans MS</family>
       <pointsize>16</pointsize>
      </font>
     </property>
