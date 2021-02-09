@@ -6,6 +6,11 @@
 #include <QMainWindow>
 #include <QTimer>
 #include <QShortcut>
+#include <QVector>//точки змеи
+#include <QKeyEvent>
+#include <QDebug>
+#include <QPoint>
+#include <QMetaEnum>
 
 #include <author.h>
 #include <helpwind.h>
@@ -26,7 +31,7 @@ class Newgamewind : public QMainWindow
   Q_OBJECT
 
 public:
-  explicit Newgamewind( QMainWindow *parent = nullptr);//isp
+  explicit Newgamewind( QMainWindow *parent = nullptr);
   ~Newgamewind();
 
 private slots:
@@ -35,6 +40,12 @@ private slots:
   void on_actionStatistics_triggered();
 
   void on_actionExit_triggered();
+//----------------------------------------------------
+
+  void initGame();
+
+  void doDrawing();
+
 
 
 
@@ -45,9 +56,20 @@ private:
   Author *auwind;
   QGraphicsScene *scene;//графическая сцена
   snakes *snak;
+  static const int DELAY = 200;//скорость змейки
+  QVector<QPoint> dots;
+  int timerId;//таймер перемещения
+  bool m_inGame;//индикатор- в игре или нет
+  enum Directions{
+    left,right,up,down
+  };
 
- //snakes
+  Directions dir;
 
+protected:
+  void timerEvent(QTimerEvent*) override;   //обработчик таймера
+  void keyPressEvent(QKeyEvent *) override; //нажатия клавиш
+  void paintEvent(QPaintEvent *) override;  //отрисовка
 };
 
 #endif // NEWGAMEWIND_H

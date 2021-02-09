@@ -22,7 +22,7 @@ QRectF snakes::boundingRect() const
  */
 void snakes::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
 {
-        QPolygon polygon;   // Используем класс полигона, чтобы отрисовать треугольник
+        QPolygon polygon;   // Используем класс полигона, чтобы отрисовать
         // Помещаем координаты точек в полигональную модель
         polygon << QPoint(-10,-10)<< QPoint(-10,10) << QPoint(10,10) <<QPoint(10,-10);
         painter->setBrush(Qt::green);     // Устанавливаем кисть, которой будем отрисовывать объект

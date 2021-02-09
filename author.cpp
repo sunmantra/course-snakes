@@ -3,6 +3,7 @@
 #include <QMessageBox>
 #include <QPushButton>
 #include <QLineEdit>
+
 Author::Author(QWidget *parent) :
   QDialog(parent),
   ui(new Ui::Author)
